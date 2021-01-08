@@ -225,6 +225,7 @@ body > article:not(:first-of-type) {
 .article-content.contact-me-form > ul > li > img {
   margin: .75em;
   flex: 0 1 20%;
+  width: 20%;
 }
 
 .checkbox {
