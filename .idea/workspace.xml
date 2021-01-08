@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdbd848-6260-4fab-9101-f13ff861fd73" name="Default Changelist" comment="v 1.0">
+    <list default="true" id="6cdbd848-6260-4fab-9101-f13ff861fd73" name="Default Changelist" comment="Open Graph meta tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1610058590535" duration="548000" />
       <workItem from="1610068793738" duration="766000" />
       <workItem from="1610069661844" duration="52000" />
-      <workItem from="1610069716590" duration="2619000" />
+      <workItem from="1610069716590" duration="3296000" />
     </task>
     <task id="LOCAL-00001" summary="about me section&#10;&#10;started landing pages section">
       <created>1609764959835</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610070264498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Open Graph meta tags">
+      <created>1610072722486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610072722486</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +111,8 @@
     <MESSAGE value="about me section&#10;&#10;started landing pages section" />
     <MESSAGE value="v 0.1" />
     <MESSAGE value="v 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.0" />
+    <MESSAGE value="Open Graph meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open Graph meta tags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1610069712586">
