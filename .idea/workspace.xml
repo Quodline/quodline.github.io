@@ -1,127 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdbd848-6260-4fab-9101-f13ff861fd73" name="Default Changelist" comment="Open Graph meta tags">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="3024b891-6f77-445c-b62e-064ab8b4a1a1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ComposerSettings">
+    <execution />
   </component>
-  <component name="ProjectId" id="1mZ0T1bbB3sPw07lPDIDUWqkCY1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QiEshZphjHTF2u5w5AQP8yjyIn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Sites/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Sites\\portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Documents\portfolio\font" />
-      <recent name="C:\Users\HP\Documents\portfolio\img" />
+      <recent name="C:\Sites\portfolio\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\portfolio\src\components" />
     </key>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cdbd848-6260-4fab-9101-f13ff861fd73" name="Default Changelist" comment="" />
-      <created>1609685823591</created>
+      <changelist id="3024b891-6f77-445c-b62e-064ab8b4a1a1" name="Changes" comment="" />
+      <created>1685828210218</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609685823591</updated>
-      <workItem from="1609685852774" duration="108000" />
-      <workItem from="1609685989528" duration="844000" />
-      <workItem from="1609692177379" duration="4358000" />
-      <workItem from="1609758976932" duration="351000" />
-      <workItem from="1609759366418" duration="3535000" />
-      <workItem from="1609775407464" duration="173000" />
-      <workItem from="1609851444361" duration="63000" />
-      <workItem from="1609851550592" duration="1073000" />
-      <workItem from="1609860039726" duration="389000" />
-      <workItem from="1609860472822" duration="3167000" />
-      <workItem from="1609931576311" duration="2767000" />
-      <workItem from="1609939439158" duration="10585000" />
-      <workItem from="1609958223074" duration="215000" />
-      <workItem from="1610058590535" duration="548000" />
-      <workItem from="1610068793738" duration="766000" />
-      <workItem from="1610069661844" duration="52000" />
-      <workItem from="1610069716590" duration="3296000" />
+      <updated>1685828210218</updated>
+      <workItem from="1685828210996" duration="28037000" />
+      <workItem from="1687713626662" duration="672000" />
+      <workItem from="1687723324323" duration="4324000" />
+      <workItem from="1687888870421" duration="633000" />
     </task>
-    <task id="LOCAL-00001" summary="about me section&#10;&#10;started landing pages section">
-      <created>1609764959835</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609764959835</updated>
-    </task>
-    <task id="LOCAL-00002" summary="v 1.0">
-      <created>1610070264498</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610070264498</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Open Graph meta tags">
-      <created>1610072722486</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1610072722486</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="about me section&#10;&#10;started landing pages section" />
-    <MESSAGE value="v 0.1" />
-    <MESSAGE value="v 1.0" />
-    <MESSAGE value="Open Graph meta tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Open Graph meta tags" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1610069712586">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1610069712586" />
-    <state x="324" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1609941126074">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="324" y="95" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1609941126074" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
