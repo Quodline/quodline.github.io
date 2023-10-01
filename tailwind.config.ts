@@ -11,8 +11,10 @@ const config: Config = {
       colors: {
         'primary': '#093d91',
       },
-      transitionProperty: {
-        'height': 'height',
+      fontFamily: {
+        'rubik': ['var(--font-rubik)', 'sans-serif'],
+        'rubik-dirt': ['var(--font-rubik-dirt)', 'sans-serif'],
+        'rubik-maze': ['var(--font-rubik-maze)', 'sans-serif'],
       },
     },
   },

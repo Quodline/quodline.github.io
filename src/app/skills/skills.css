@@ -1,0 +1,10 @@
+.skill {
+    @apply flex-1
+    flex lg:flex-none
+    flex-col
+    items-center
+    bg-gray-100
+    rounded-md
+    p-4
+    mr-4 mt-4;
+}

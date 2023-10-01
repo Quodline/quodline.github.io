@@ -1,0 +1,15 @@
+.accordion-item {
+    @apply flex font-light flex-col items-start bg-gray-100 rounded-md p-4 mr-4 mt-4;
+}
+
+.accordion-item-header {
+    @apply flex justify-between items-center font-bold text-primary self-stretch cursor-pointer;
+}
+
+.accordion-item-body {
+    @apply overflow-hidden transition-all space-y-4 h-auto scale-y-100;
+}
+
+.accordion-item-body.is-collapsed {
+    @apply h-0 scale-y-0;
+}
