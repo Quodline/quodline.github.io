@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import avatar from '@/assets/avatar.jpeg'
 import Anchor from '@/components/Anchor'
 import {Metadata} from 'next'
 
@@ -11,10 +9,9 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <article className="flex flex-col">
-            <Image src={avatar}
-                   alt=""
-                   className="w-48 h-48 rounded-full self-center"
-                   placeholder="blur"/>
+            <img src="/avatar.jpeg"
+                 alt=""
+                 className="w-48 h-48 rounded-full self-center"/>
             <div className="my-4">
                 <p>I am a passionate and results-driven Full-Stack Developer with expertise in a versatile tech stack,
                     including <Anchor href="https://laravel.com/" isExternal>Laravel</Anchor>,
