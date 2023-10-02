@@ -5,7 +5,7 @@ import {saveAs} from 'file-saver'
 export default function ResumeButton() {
     const downloadFile = () => {
         saveAs(
-            "https://drive.google.com/file/d/1n82Wjto-J8MlE1nBpGwzGXzPLbno5gfc/view?usp=sharing",
+            "https://drive.google.com/file/d/17KeL58Ta7APMj0Ywxt0KGB513Ii_3_yT/view?usp=sharing",
             "ore-adeleye-resume-2023.pdf"
         )
     }
