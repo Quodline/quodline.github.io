@@ -11,7 +11,7 @@ export default function ResumeButton() {
     }
 
     return (
-        <button className="link-solid self-end" onClick={downloadFile}>
+        <button className="link-solid self-center" onClick={downloadFile}>
             Download Resume
         </button>
     )
