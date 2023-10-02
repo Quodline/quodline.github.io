@@ -1,15 +1,15 @@
-const portfolioPage: Page = {path: '/', title: 'Portfolio'}
+const aboutPage: Page = {path: '/', title: 'About'}
+const portfolioPage: Page = {path: '/portfolio', title: 'Portfolio'}
 const skillsPage: Page = {path: '/skills', title: 'Skills'}
 const socialsPage: Page = {path: '/handles', title: 'Social handles'}
-const aboutPage: Page = {path: '/about', title: 'About'}
 
+aboutPage.next = portfolioPage
+portfolioPage.previous = aboutPage
 portfolioPage.next = skillsPage
 skillsPage.previous = portfolioPage
 skillsPage.next = socialsPage
 socialsPage.previous = skillsPage
-socialsPage.next = aboutPage
-aboutPage.previous = socialsPage
 
-const pages = [ portfolioPage, skillsPage, socialsPage, aboutPage ]
+const pages: Page[] = [ aboutPage, portfolioPage, skillsPage, socialsPage ]
 
 export default pages

@@ -6,9 +6,10 @@ import {Rubik, Rubik_Dirt, Rubik_Maze} from "next/font/google"
 import BottomNav from "@/components/BottomNav"
 
 export const metadata: Metadata = {
-    title: 'Ore Adeleye\'s portfolio',
-    description: 'Ore Adeleye: portfolio. Oreoluwa Adeleye\'s best, recent works',
+    title: 'About Ore Adeleye',
+    description: 'Oreoluwa Adeleye: Bio, About me and success story. Who is Ore Adeleye?',
 }
+
 const rubik = Rubik({
     weight: ['300', '500'],
     subsets: ['latin-ext'],
