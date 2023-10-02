@@ -1,5 +1,6 @@
 import Anchor from '@/components/Anchor'
 import {Metadata} from 'next'
+import ResumeButton from '@/components/ResumeButton'
 
 export const metadata: Metadata = {
     title: 'About Ore Adeleye',
@@ -22,6 +23,7 @@ export default function About() {
                 <p>I am committed to learning new technologies that improve the quality of code I write and the
                     efficiency of applications I develop.</p>
             </div>
+            <ResumeButton/>
         </article>
     )
 }

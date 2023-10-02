@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "file-saver": "^2.0.5",
     "gh-pages": "^6.0.0",
     "next": "latest",
     "react": "latest",
@@ -20,6 +21,7 @@
     "sharp": "^0.32.6"
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.5",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
