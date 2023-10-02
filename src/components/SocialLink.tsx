@@ -11,10 +11,7 @@ type Props = {
 export default function SocialLink (props: Props) {
     return <Link href={props.href} target="_blank" className="handle">
         <div className="flex items-center">
-            <Image className="logo-icon"
-                   src={props.icon}
-                   alt="icon"
-                   placeholder="blur"/>
+            <Image className="logo-icon" src={props.icon} alt="icon"/>
         </div>
         <div className="text-center font-bold">{props.name}</div>
         <div className="text-center text-gray-500 break-all">{props.subtext}</div>

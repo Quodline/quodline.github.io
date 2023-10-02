@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function SocialHandles() {
     return (
         <div className="bg-gray-200">
-            <h4 className="font-bold text-3xl">Learn more about me or reach out to me...</h4>
+            <h4 className="font-bold text-3xl">Reach out...</h4>
             <div className="handles-list">
                 {socialHandles.map((item) =>
                     <SocialLink

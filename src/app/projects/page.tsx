@@ -1,4 +1,4 @@
-import './portfolio.css'
+import './projects.css'
 
 import projects from '@/data/projects'
 import ProjectList from '@/components/ProjectList'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <main>
-            <h4 className="font-bold text-3xl">Projects</h4>
+            <h4 className="font-bold text-3xl">Featured projects</h4>
             <ProjectList projects={projects}/>
         </main>
     )

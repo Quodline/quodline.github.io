@@ -1,5 +1,11 @@
 import Anchor from '@/components/Anchor'
 import ResumeButton from '@/components/ResumeButton'
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'About Ore Adeleye',
+    description: 'Oreoluwa Adeleye: Bio, About Ore Adeleye and success story.',
+}
 
 export default function About() {
     return (

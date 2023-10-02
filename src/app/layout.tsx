@@ -1,13 +1,19 @@
 import './globals.css'
 import type {Metadata} from 'next'
 import {PropsWithChildren} from "react"
-import Nav from "@/components/Nav"
 import {Rubik, Rubik_Dirt, Rubik_Maze} from "next/font/google"
 import BottomNav from "@/components/BottomNav"
+import Nav from "@/components/Nav"
 
 export const metadata: Metadata = {
-    title: 'About Ore Adeleye',
-    description: 'Oreoluwa Adeleye: Bio, About me and success story. Who is Ore Adeleye?',
+    title: 'Ore Adeleye',
+    formatDetection: {
+        email: false,
+        address: false,
+        telephone: false,
+    },
+    metadataBase: new URL(process.env.APP_URL || 'https://quodline.github.io'),
+    themeColor: '#093d91',
 }
 
 const rubik = Rubik({
