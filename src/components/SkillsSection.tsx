@@ -13,7 +13,7 @@ interface Props {
 export default function SkillsSection({gridClassName, title, skills}: Props) {
     return (
         <div>
-            <h4 className="font-bold text-2xl">{title}</h4>
+            <h2 className="font-bold text-2xl">{title}</h2>
             <motion.div className={`skill-list ${gridClassName}`} {...cardListProps}>
                 {skills.map(([name, icon]) => (
                     <Skill key={name} icon={icon} name={name}/>

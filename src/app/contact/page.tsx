@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function SocialHandles() {
     return (
         <div className="bg-gray-200">
-            <h4 className="font-bold text-3xl">Reach out...</h4>
+            <h1 className="font-bold text-3xl">Reach out...</h1>
             <HandlesList/>
         </div>
     )

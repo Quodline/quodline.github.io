@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "next build",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t true",
+    "e2e": "cypress run",
+    "test": "start-server-and-test start http://localhost:3000 e2e"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -19,7 +21,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
-    "sharp": "^0.32.6"
+    "sharp": "^0.32.6",
+    "start-server-and-test": "^2.0.1"
   },
   "devDependencies": {
     "@types/file-saver": "^2.0.5",
@@ -27,6 +30,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "cypress": "^13.3.0",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",

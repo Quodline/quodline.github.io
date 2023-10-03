@@ -1,6 +1,8 @@
 'use client'
 
 import {saveAs} from 'file-saver'
+import {buttonVariants} from '@/framer/bottom-nav'
+import { motion } from 'framer-motion'
 
 export default function ResumeButton() {
     const downloadFile = () => {
@@ -11,8 +13,12 @@ export default function ResumeButton() {
     }
 
     return (
-        <button className="link-solid self-center" onClick={downloadFile}>
+        <motion.button className="my-2 link-solid self-end"
+                       onClick={downloadFile}
+                       initial="hidden"
+                       animate="visible"
+                       variants={buttonVariants['right']}>
             Download Resume
-        </button>
+        </motion.button>
     )
 }

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <article className="flex flex-col">
+            <ResumeButton/>
             <img src="/avatar.jpeg"
                  alt=""
                  className="w-48 h-48 rounded-full self-center"/>
@@ -23,7 +24,6 @@ export default function About() {
                 <p>I am committed to learning new technologies that improve the quality of code I write and the
                     efficiency of applications I develop.</p>
             </div>
-            <ResumeButton/>
         </article>
     )
 }

@@ -17,12 +17,12 @@ export default function NavList() {
                             initial="hidden"
                             animate="visible"
                             variants={titles}>
-                    <motion.h1 className="font-rubik-dirt text-4xl lg:text-8xl" variants={item}>
+                    <motion.h3 className="font-rubik-dirt text-4xl lg:text-8xl" variants={item}>
                         Ore Adeleye
-                    </motion.h1>
-                    <motion.h2 className="font-rubik-maze text-1xl lg:text-4xl" variants={item}>
+                    </motion.h3>
+                    <motion.h3 className="font-rubik-maze text-1xl lg:text-4xl" variants={item}>
                         Full Stack Developer
-                    </motion.h2>
+                    </motion.h3>
                 </motion.div>
                 <button onClick={() => setShowLinks(!showLinks)}
                         className="lg:hidden text-3xl p-2 self-end">
