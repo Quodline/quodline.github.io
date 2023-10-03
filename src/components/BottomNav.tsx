@@ -5,6 +5,9 @@ import {FaArrowLeft, FaArrowRight} from "react-icons/fa6"
 import {usePathname} from "next/navigation"
 import {useCallback} from "react"
 import pages from "@/data/pages"
+import { motion } from "framer-motion"
+import {buttonVariants} from '@/framer/bottom-nav'
+import ButtonNavButton from '@/components/ButtonNavButton'
 
 export default function BottomNav() {
     const pathname = usePathname()
@@ -14,20 +17,18 @@ export default function BottomNav() {
     }, [pathname])
 
     return (
-        <div className="flex-1 flex justify-between items-center p-4">
+        <div className="flex-1 flex justify-between items-center p-4 overflow-hidden">
             <div>
                 {currentPage()?.previous && (
-                    <Link href={currentPage()?.previous?.path || '/'} className="link-solid">
-                        <FaArrowLeft/>
-                        <span>{currentPage()?.previous?.title}</span>
-                    </Link>
+                    <ButtonNavButton href={currentPage()?.previous?.path || '/'}>
+                        {currentPage()?.previous?.title}
+                    </ButtonNavButton>
                 )}
             </div>
             {currentPage()?.next && (
-                <Link href={currentPage()?.next?.path || '/'} className="link-solid">
-                    <span>{currentPage()?.next?.title}</span>
-                    <FaArrowRight/>
-                </Link>
+                <ButtonNavButton href={currentPage()?.next?.path || '/'} direction="right">
+                    {currentPage()?.next?.title}
+                </ButtonNavButton>
             )}
         </div>
     )

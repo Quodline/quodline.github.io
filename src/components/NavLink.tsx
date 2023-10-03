@@ -3,6 +3,8 @@
 import Link from "next/link"
 import {usePathname} from 'next/navigation'
 import cn from 'classnames'
+import { motion } from "framer-motion"
+import {link} from '@/framer/nav'
 
 interface Props {
     children: string,
@@ -14,9 +16,9 @@ export default function NavLink({ children, href }: Props) {
 
     return (
         <Link href={href}>
-            <h3 className={cn("font-rubik-maze lg:text-xl mr-3 mt-2", {
+            <motion.h3 variants={link} className={cn("font-rubik-maze lg:text-xl mr-3 mt-2", {
                 '!font-rubik-dirt': pathname === href,
-            })}>{children}</h3>
+            })}>{children}</motion.h3>
         </Link>
     )
 }

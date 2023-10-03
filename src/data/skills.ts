@@ -2,6 +2,7 @@ import reactIcon from "@/assets/frontend/react.svg"
 import reactNativeIcon from "@/assets/frontend/create-react-app.svg"
 import typescriptIcon from "@/assets/frontend/typescript-icon.svg"
 import tailwindIcon from "@/assets/frontend/tailwindcss-icon.svg"
+import framerIcon from "@/assets/frontend/framer.svg"
 import htmlIcon from "@/assets/frontend/html-5.svg"
 import cssIcon from "@/assets/frontend/css-3.svg"
 import javascriptIcon from "@/assets/frontend/javascript.svg"
@@ -45,6 +46,7 @@ const skills: { backend: Skill[], frontend: Skill[], deployment: Skill[] } = {
         ['JavaScript', javascriptIcon],
         ['TypeScript', typescriptIcon],
         ['Tailwind', tailwindIcon],
+        ['Framer Motion', framerIcon],
         ['React', reactIcon],
         ['NextJS', nextIcon],
         ['React Native', reactNativeIcon],

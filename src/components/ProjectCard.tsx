@@ -1,6 +1,8 @@
 import Anchor from '@/components/Anchor'
 import cn from 'classnames'
 import ProjectCardSegment from '@/components/ProjectCardSegment'
+import {motion} from 'framer-motion'
+import {item} from '@/framer/projects'
 
 interface Props {
     project: PortfolioProject
@@ -9,7 +11,7 @@ interface Props {
 }
 
 export default function ProjectCard({project, isCollapsed, onExpand}: Props) {
-    return <section className="accordion-item">
+    return <motion.section className="accordion-item" variants={item}>
         <div onClick={() => onExpand()} className="accordion-item-header">
             <h2 className="text-xl">{project.title}</h2>
             <Anchor href={project.link} isExternal>Visit</Anchor>
@@ -26,7 +28,7 @@ export default function ProjectCard({project, isCollapsed, onExpand}: Props) {
                 )}
             </ProjectCardSegment>
             <ProjectCardSegment title="Languages">
-                {project.techStack.languages.map(language =>(
+                {project.techStack.languages.map(language => (
                     <div className="mr-5" key={language}>{language}</div>
                 ))}
             </ProjectCardSegment>
@@ -39,5 +41,5 @@ export default function ProjectCard({project, isCollapsed, onExpand}: Props) {
                 <Anchor href={project.github} isExternal className="font-medium">GitHub</Anchor>
             </div>
         </div>
-    </section>
+    </motion.section>
 }

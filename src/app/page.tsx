@@ -1,6 +1,6 @@
 import Anchor from '@/components/Anchor'
 import ResumeButton from '@/components/ResumeButton'
-import {Metadata} from "next";
+import {Metadata} from "next"
 
 export const metadata: Metadata = {
     title: 'About Ore Adeleye',

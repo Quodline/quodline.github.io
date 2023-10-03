@@ -2,6 +2,8 @@
 
 import {useState} from 'react'
 import ProjectCard from '@/components/ProjectCard'
+import { motion } from 'framer-motion'
+import {list} from '@/framer/projects'
 
 interface Props {
     projects: PortfolioProject[]
@@ -10,12 +12,12 @@ interface Props {
 export default function ProjectList({projects}: Props) {
     const [activeIdx, setActiveIdx] = useState(0)
 
-    return <article>
+    return <motion.article variants={list} initial="hidden" animate="visible">
         {projects.map((project, idx) =>
             <ProjectCard key={project.id}
                          project={project}
                          isCollapsed={idx !== activeIdx}
                          onExpand={() => setActiveIdx(idx)}/>
         )}
-    </article>
+    </motion.article>
 }

@@ -1,3 +1,7 @@
+.skill-list {
+    @apply grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8;
+}
+
 .skill {
     @apply flex-1
     flex lg:flex-none

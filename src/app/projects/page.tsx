@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     title: 'Ore Adeleye\'s portfolio',
     description: 'Ore Adeleye: portfolio. Oreoluwa Adeleye\'s best, recent works',
 }
+
 export default function Home() {
     return (
         <main>

@@ -36,7 +36,8 @@ const rubikMaze = Rubik_Maze({
 
 export default function RootLayout({children}: PropsWithChildren) {
     return (
-        <html lang="en" className={`${rubik.variable} ${rubikDirt.variable} ${rubikMaze.variable} font-sans`}>
+        <html lang="en"
+              className={`${rubik.variable} ${rubikDirt.variable} ${rubikMaze.variable} font-sans overflow-x-hidden`}>
         <body className="flex flex-col lg:flex-row min-h-screen font-rubik bg-primary">
         <Nav/>
         <div className="flex-1 flex flex-col bg-gray-200 text-gray-700">
