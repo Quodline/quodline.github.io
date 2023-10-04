@@ -1,7 +1,7 @@
-const aboutPage: Page = {path: '/', title: 'About'}
-const projectsPage: Page = {path: '/projects', title: 'Projects'}
-const skillsPage: Page = {path: '/skills', title: 'Skills'}
-const contactPage: Page = {path: '/contact', title: 'Contact'}
+export const aboutPage: Page = {path: '/', title: 'About'}
+export const projectsPage: Page = {path: '/projects', title: 'Projects'}
+export const skillsPage: Page = {path: '/skills', title: 'Skills'}
+export const contactPage: Page = {path: '/contact', title: 'Contact'}
 
 aboutPage.next = projectsPage
 projectsPage.previous = aboutPage

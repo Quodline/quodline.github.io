@@ -5,8 +5,8 @@ import ProjectList from '@/components/ProjectList'
 import {Metadata} from 'next'
 
 export const metadata: Metadata = {
-    title: 'Ore Adeleye\'s portfolio',
-    description: 'Ore Adeleye: portfolio. Oreoluwa Adeleye\'s best, recent works',
+    title: 'Ore Adeleye\'s projects',
+    description: 'Ore Adeleye: portfolio. Oreoluwa Adeleye\'s best, recent works and selected projects',
 }
 
 export default function Home() {

@@ -8,6 +8,7 @@ import cssIcon from "@/assets/frontend/css-3.svg"
 import javascriptIcon from "@/assets/frontend/javascript.svg"
 import nextIcon from "@/assets/frontend/nextjs-icon.svg"
 import reduxIcon from "@/assets/frontend/redux.svg"
+import cypress from "@/assets/frontend/cypress-icon.svg"
 
 import redisIcon from "@/assets/backend/redis.svg"
 import openapiIcon from "@/assets/backend/openapi-icon.svg"
@@ -51,6 +52,7 @@ const skills: { backend: Skill[], frontend: Skill[], deployment: Skill[] } = {
         ['NextJS', nextIcon],
         ['React Native', reactNativeIcon],
         ['Redux', reduxIcon],
+        ['Cypress', cypress],
     ],
     deployment: [
         ['Vercel', vercelIcon],

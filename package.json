@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "file-saver": "^2.0.5",
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
     "next": "latest",
@@ -25,7 +24,6 @@
     "start-server-and-test": "^2.0.1"
   },
   "devDependencies": {
-    "@types/file-saver": "^2.0.5",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

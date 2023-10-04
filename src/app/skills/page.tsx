@@ -4,7 +4,7 @@ import SkillsSection from '@/components/SkillsSection'
 import {Metadata} from 'next'
 
 export const metadata: Metadata = {
-    title: 'Ore Adeleye\'s skill set',
+    title: 'Ore Adeleye\'s skills',
     description: 'Ore Adeleye: skill set, programming languages, tools.',
 }
 

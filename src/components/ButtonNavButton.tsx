@@ -11,10 +11,13 @@ interface Props {
 
 export default function ButtonNavButton({children, href, direction = 'left'}: PropsWithChildren<Props>) {
     return (
-        <motion.div initial="hidden" animate="visible" variants={buttonVariants[direction]}>
+        <motion.div className={`bottom-link-${direction}`}
+                    initial="hidden"
+                    animate="visible"
+                    variants={buttonVariants[direction]}>
             <Link href={href} className="link-solid">
                 <span>{children}</span>
-                {direction === 'left' ? <FaArrowLeft /> : <FaArrowRight/>}
+                {direction === 'left' ? <FaArrowLeft/> : <FaArrowRight/>}
             </Link>
         </motion.div>
     )
