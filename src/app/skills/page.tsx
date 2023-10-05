@@ -12,13 +12,11 @@ export default function Skills() {
     return (
         <main className="flex flex-col space-y-8 bg-gray-200">
             <SkillsSection title="Frontend"
-                           skills={skills.frontend}
-                           gridClassName="2xl:grid-cols-10"/>
+                           skills={skills.frontend}/>
             <SkillsSection title="Backend"
                            skills={skills.backend}/>
             <SkillsSection title="Cloud & Deployment"
-                           skills={skills.deployment}
-                           gridClassName="xl:!grid-cols-8"/>
+                           skills={skills.deployment}/>
         </main>
     )
 }

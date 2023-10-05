@@ -1,7 +1,4 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,13 +6,15 @@
     "lint": "next lint",
     "predeploy": "next build",
     "deploy": "gh-pages -d out -t true",
-    "e2e": "cypress run",
-    "test": "start-server-and-test start http://localhost:3000 e2e"
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "start-test": "start-server-and-test start 3000 test"
   },
   "dependencies": {
     "classnames": "^2.3.2",
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -24,6 +23,7 @@
     "start-server-and-test": "^2.0.1"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.199",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

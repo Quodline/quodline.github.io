@@ -13,7 +13,7 @@ type Props = {
 export default function SocialLink (props: Props) {
     return (
         <motion.div className="handle" {...cardProps}>
-            <Link href={props.href} target="_blank">
+            <Link href={props.href} target="_blank" className="p-4">
                 <div className="flex justify-center items-center">
                     <Image className="logo-icon" src={props.icon} alt="icon"/>
                 </div>
