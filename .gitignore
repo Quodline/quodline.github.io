@@ -5,8 +5,13 @@
 /.pnp
 .pnp.js
 
+# IDE
+.idea
+.vscode
+
 # testing
 /coverage
+/.nyc_output
 
 # next.js
 /.next/

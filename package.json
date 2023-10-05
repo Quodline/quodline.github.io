@@ -8,7 +8,8 @@
     "deploy": "gh-pages -d out -t true",
     "test": "cypress run",
     "test:open": "cypress open",
-    "start-test": "start-server-and-test start 3000 test"
+    "start-test": "start-server-and-test start 3000 test",
+    "coverage": "nyc --reporter=lcov --reporter=text-summary npm run test"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -31,6 +32,7 @@
     "cypress": "^13.3.0",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "nyc": "^15.1.0",
     "postcss": "latest",
     "tailwindcss": "latest",
     "typescript": "latest"
