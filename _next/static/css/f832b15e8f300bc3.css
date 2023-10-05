@@ -1,0 +1,1 @@
+.handles-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));flex-wrap:wrap}@media (min-width:1024px){.handles-list{display:flex}}.handle{margin-right:1rem;margin-top:1rem;display:flex;flex-basis:10rem;flex-direction:column;border-radius:.375rem;--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}
