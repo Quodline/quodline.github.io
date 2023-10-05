@@ -1,20 +1,20 @@
 'use client'
 
 import Skill from '@/components/Skill'
-import { motion } from 'framer-motion'
+import {motion} from 'framer-motion'
 import {cardListProps} from '@/framer/cards'
+import _ from 'lodash'
 
 interface Props {
-    gridClassName?: string,
     title: string
     skills: Skill[]
 }
 
-export default function SkillsSection({gridClassName, title, skills}: Props) {
+export default function SkillsSection({title, skills}: Props) {
     return (
-        <div>
+        <div id={`skills-${_.kebabCase(title)}`}>
             <h2 className="font-bold text-2xl">{title}</h2>
-            <motion.div className={`skill-list ${gridClassName}`} {...cardListProps}>
+            <motion.div className="skill-list" {...cardListProps}>
                 {skills.map(([name, icon]) => (
                     <Skill key={name} icon={icon} name={name}/>
                 ))}

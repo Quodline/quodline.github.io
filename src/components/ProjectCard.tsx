@@ -16,16 +16,15 @@ export default function ProjectCard({project, isCollapsed, onExpand}: Props) {
             <h2 className="text-xl">{project.title}</h2>
             <Anchor href={project.link} isExternal>Visit</Anchor>
         </div>
-        <div
-            className={cn('accordion-item-body', {'is-collapsed': isCollapsed})}>
+        <div className={cn('accordion-item-body', {'is-collapsed': isCollapsed})}>
             <div>{project.description}</div>
             <ProjectCardSegment title="Frameworks">
-                {project.techStack.frameworks.map(([framework, version]) =>
+                {project.techStack.frameworks.map(([framework, version]) => (
                     <div className="mr-5" key={framework}>
                         <div>{framework}</div>
                         <div className="text-gray-400">v{version}</div>
                     </div>
-                )}
+                ))}
             </ProjectCardSegment>
             <ProjectCardSegment title="Languages">
                 {project.techStack.languages.map(language => (

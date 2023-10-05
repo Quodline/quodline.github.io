@@ -12,7 +12,7 @@ interface Props {
 export default function ProjectList({projects}: Props) {
     const [activeIdx, setActiveIdx] = useState(0)
 
-    return <motion.article variants={list} initial="hidden" animate="visible">
+    return <motion.article className="accordion" variants={list} initial="hidden" animate="visible">
         {projects.map((project, idx) =>
             <ProjectCard key={project.id}
                          project={project}

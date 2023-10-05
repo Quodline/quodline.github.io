@@ -3,5 +3,5 @@
 }
 
 .handle {
-    @apply basis-40 flex flex-col items-center bg-gray-100 rounded-md p-4 mr-4 mt-4;
+    @apply basis-40 flex flex-col bg-gray-100 rounded-md mr-4 mt-4;
 }

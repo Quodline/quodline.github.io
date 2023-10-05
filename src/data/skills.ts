@@ -17,7 +17,6 @@ import slimIcon from "@/assets/backend/slim.svg"
 import phpIcon from "@/assets/backend/php.svg"
 import mysqlIcon from "@/assets/backend/mysql-icon.svg"
 import dockerIcon from "@/assets/backend/docker-icon.svg"
-import supabaseIcon from "@/assets/backend/supabase-icon.svg"
 import restIcon from "@/assets/backend/aws-api-gateway.svg"
 
 import vercelIcon from "@/assets/deployment/vercel-icon.svg"
@@ -30,17 +29,6 @@ import githubIcon from "@/assets/github-icon.svg"
 import forgeIcon from "@/assets/deployment/forge.svg"
 
 const skills: { backend: Skill[], frontend: Skill[], deployment: Skill[] } = {
-    backend: [
-        ['PHP', phpIcon],
-        ['Laravel', laravelIcon],
-        ['SlimPHP', slimIcon],
-        ['MySQL', mysqlIcon],
-        ['Redis', redisIcon],
-        ['Supabase', supabaseIcon],
-        ['Docker', dockerIcon],
-        ['REST', restIcon],
-        ['OpenAPI', openapiIcon],
-    ],
     frontend: [
         ['HTML', htmlIcon],
         ['CSS', cssIcon],
@@ -53,6 +41,16 @@ const skills: { backend: Skill[], frontend: Skill[], deployment: Skill[] } = {
         ['React Native', reactNativeIcon],
         ['Redux', reduxIcon],
         ['Cypress', cypress],
+    ],
+    backend: [
+        ['PHP', phpIcon],
+        ['Laravel', laravelIcon],
+        ['SlimPHP', slimIcon],
+        ['MySQL', mysqlIcon],
+        ['Redis', redisIcon],
+        ['Docker', dockerIcon],
+        ['REST', restIcon],
+        ['OpenAPI', openapiIcon],
     ],
     deployment: [
         ['Vercel', vercelIcon],
