@@ -21,7 +21,7 @@ describe('Links', () => {
 describe('Skill lists', () => {
     it('displays all the frontend skills', () => {
         cy.get('#skills-frontend > .skill-list').children()
-            .should('have.length', 11)
+            .should('have.length', 12)
     })
 
     it('displays all the backend skills', () => {
