@@ -3,7 +3,7 @@
 import socialHandles from '@/data/socialHandles'
 import SocialLink from '@/components/SocialLink'
 import { motion } from 'framer-motion'
-import {cardListProps} from '@/framer/cards'
+import { cardListProps } from '@/framer/cards'
 
 export default function HandlesList() {
     return (

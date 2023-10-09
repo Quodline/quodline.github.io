@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import {contactPage, projectsPage, skillsPage} from '@/data/pages'
 
 beforeEach(() => {
@@ -11,7 +13,8 @@ describe('Links', () => {
         cy.url().should('include', contactPage.path)
     })
 
-    it.only('can link to projects', () => {
+    it('can link to projects', () => {
+        cy.visit(skillsPage.path)
         cy.get('.bottom-link-left').click()
 
         cy.url().should('include', projectsPage.path)
@@ -19,9 +22,14 @@ describe('Links', () => {
 })
 
 describe('Skill lists', () => {
+    it('displays all the languages skills', () => {
+        cy.get('#skills-languages > .skill-list').children()
+            .should('have.length', 7)
+    })
+
     it('displays all the frontend skills', () => {
         cy.get('#skills-frontend > .skill-list').children()
-            .should('have.length', 12)
+            .should('have.length', 8)
     })
 
     it('displays all the backend skills', () => {
@@ -29,8 +37,8 @@ describe('Skill lists', () => {
             .should('have.length', 8)
     })
 
-    it('displays all the deployment environments', () => {
-        cy.get('#skills-cloud-deployment > .skill-list').children()
-            .should('have.length', 8)
+    it('displays all the database skills', () => {
+        cy.get('#skills-database > .skill-list').children()
+            .should('have.length', 4)
     })
 })

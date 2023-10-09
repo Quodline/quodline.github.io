@@ -1,10 +1,10 @@
 import {PropsWithChildren} from "react"
 import Link from 'next/link'
 
-type Props = {
-    href: string,
-    isExternal?: boolean,
-    className?: string,
+interface Props {
+    href: string
+    isExternal?: boolean
+    className?: string
 }
 
 export default function Anchor(props: PropsWithChildren<Props>) {

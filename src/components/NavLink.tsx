@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import {link} from '@/framer/nav'
 
 interface Props {
-    children: string,
+    children: string
     href: string
 }
 

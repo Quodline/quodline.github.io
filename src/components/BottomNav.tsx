@@ -1,12 +1,8 @@
 'use client'
 
-import Link from "next/link"
-import {FaArrowLeft, FaArrowRight} from "react-icons/fa6"
 import {usePathname} from "next/navigation"
 import {useCallback} from "react"
 import pages from "@/data/pages"
-import { motion } from "framer-motion"
-import {buttonVariants} from '@/framer/bottom-nav'
 import ButtonNavButton from '@/components/ButtonNavButton'
 
 export default function BottomNav() {

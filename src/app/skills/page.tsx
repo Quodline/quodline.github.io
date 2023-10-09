@@ -11,12 +11,14 @@ export const metadata: Metadata = {
 export default function Skills() {
     return (
         <main className="flex flex-col space-y-8 bg-gray-200">
+            <SkillsSection title="Languages"
+                           skills={skills.languages}/>
             <SkillsSection title="Frontend"
                            skills={skills.frontend}/>
             <SkillsSection title="Backend"
                            skills={skills.backend}/>
-            <SkillsSection title="Cloud & Deployment"
-                           skills={skills.deployment}/>
+            <SkillsSection title="Database"
+                           skills={skills.database}/>
         </main>
     )
 }

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import {contactPage, skillsPage} from '@/data/pages'
 
 beforeEach(() => {

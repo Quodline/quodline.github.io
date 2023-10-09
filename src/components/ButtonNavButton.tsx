@@ -5,7 +5,7 @@ import {buttonVariants} from '@/framer/bottom-nav'
 import {FaArrowLeft, FaArrowRight} from 'react-icons/fa6'
 
 interface Props {
-    href: string,
+    href: string
     direction?: 'left' | 'right'
 }
 

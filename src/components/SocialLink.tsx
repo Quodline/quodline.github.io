@@ -3,11 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {cardProps} from '@/framer/cards'
 
-type Props = {
-    icon: string,
-    name: string,
-    subtext: string,
-    href: string,
+interface Props {
+    icon: string
+    name: string
+    subtext: string
+    href: string
 }
 
 export default function SocialLink (props: Props) {
