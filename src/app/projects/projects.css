@@ -1,15 +1,15 @@
 .accordion-item {
-    @apply flex font-light flex-col items-start bg-gray-100 rounded-md p-4 mr-4 mt-4;
+  @apply mr-4 mt-4 flex flex-col items-start rounded-md bg-gray-100 p-4 font-light;
 }
 
 .accordion-item-header {
-    @apply flex justify-between items-center font-bold text-primary self-stretch cursor-pointer;
+  @apply flex cursor-pointer items-center justify-between self-stretch font-bold text-primary;
 }
 
 .accordion-item-body {
-    @apply overflow-hidden transition-all space-y-4 h-auto scale-y-100;
+  @apply h-auto scale-y-100 space-y-4 overflow-hidden transition-all;
 }
 
 .accordion-item-body.is-collapsed {
-    @apply h-0 scale-y-0;
+  @apply h-0 scale-y-0;
 }

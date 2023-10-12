@@ -1,14 +1,14 @@
 .skill-list {
-    @apply grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8;
+  @apply grid grid-cols-3 md:grid-cols-4 xl:grid-cols-8;
 }
 
 .skill {
-    @apply flex-1
-    flex lg:flex-none
+  @apply mr-4
+    mt-4 flex
+    flex-1
     flex-col
     items-center
-    bg-gray-100
     rounded-md
-    p-4
-    mr-4 mt-4;
+    bg-gray-100
+    p-4 lg:flex-none;
 }

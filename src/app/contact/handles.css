@@ -1,7 +1,7 @@
 .handles-list {
-    @apply grid grid-cols-2 lg:flex flex-wrap;
+  @apply grid grid-cols-2 flex-wrap lg:flex;
 }
 
 .handle {
-    @apply basis-40 flex flex-col bg-gray-100 rounded-md mr-4 mt-4;
+  @apply mr-4 mt-4 flex basis-40 flex-col rounded-md bg-gray-100;
 }
