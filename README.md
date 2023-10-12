@@ -29,7 +29,7 @@ npm run start
 Test
 
 ```bash
-npm run start-test
+npm run test
 # or
 npm run coverage # with coverage
 ```
