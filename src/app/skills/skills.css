@@ -13,7 +13,3 @@
     dark:bg-gray-700 dark:text-gray-50
     p-4 lg:flex-none;
 }
-
-.logo-icon {
-  filter: drop-shadow(2px 2px #fff);
-}
