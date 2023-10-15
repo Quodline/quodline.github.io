@@ -8,8 +8,7 @@
     "deploy": "gh-pages -d out -t true",
     "test": "cypress run",
     "test:open": "cypress open",
-    "start-test": "start-server-and-test start 3000 test",
-    "coverage": "nyc --reporter=lcov --reporter=text-summary npm run test",
+    "test:coverage": "nyc --reporter=lcov --reporter=text-summary cypress run",
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
@@ -22,8 +21,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
-    "sharp": "^0.32.6",
-    "start-server-and-test": "^2.0.1"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.199",
