@@ -1,5 +1,5 @@
 .accordion-item {
-  @apply mr-4 mt-4 flex flex-col items-start rounded-md bg-gray-100 dark:bg-gray-700 dark:text-gray-50 p-4 font-light;
+  @apply mr-4 mt-4 flex flex-col items-start rounded-md bg-gray-100 p-4 font-light dark:bg-gray-700 dark:text-gray-50;
 }
 
 .accordion-item-header {

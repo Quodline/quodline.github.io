@@ -14,10 +14,10 @@ export default function ProjectList({ projects }: Props) {
 
   return (
     <motion.article
-      className='accordion'
+      className="accordion"
       variants={list}
-      initial='hidden'
-      animate='visible'
+      initial="hidden"
+      animate="visible"
     >
       {projects.map((project, idx) => (
         <ProjectCard

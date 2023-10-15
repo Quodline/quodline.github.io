@@ -8,27 +8,27 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <article className='flex flex-col'>
+    <article className="flex flex-col">
       <ResumeButton />
       <img
-        src='/avatar.jpeg'
-        alt=''
-        className='h-48 w-48 self-center rounded-full'
+        src="/avatar.jpeg"
+        alt=""
+        className="h-48 w-48 self-center rounded-full"
       />
-      <div className='my-4'>
+      <div className="my-4">
         <p>
           I am a passionate and results-driven Full-Stack Developer with
           expertise in a versatile tech stack, including{' '}
-          <Anchor href='https://laravel.com/' isExternal>
+          <Anchor href="https://laravel.com/" isExternal>
             Laravel
           </Anchor>
           ,
-          <Anchor href='https://react.dev/' isExternal>
+          <Anchor href="https://react.dev/" isExternal>
             {' '}
             React
           </Anchor>
           ,
-          <Anchor href='https://tailwindcss.com/' isExternal>
+          <Anchor href="https://tailwindcss.com/" isExternal>
             {' '}
             Tailwind
           </Anchor>

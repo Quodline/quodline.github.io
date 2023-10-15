@@ -9,11 +9,11 @@ interface Props {
 
 export default function SkillCard(props: Props) {
   return (
-    <motion.figure className='skill' {...cardProps}>
-      <div className='flex items-center justify-center'>
-        <Image className='logo-icon' src={props.icon} alt='icon' />
+    <motion.figure className="skill" {...cardProps}>
+      <div className="flex items-center justify-center">
+        <Image className="logo-icon" src={props.icon} alt="icon" />
       </div>
-      <figcaption className='flex-1 text-center'>{props.name}</figcaption>
+      <figcaption className="flex-1 text-center">{props.name}</figcaption>
     </motion.figure>
   );
 }

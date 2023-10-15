@@ -7,7 +7,7 @@ import { cardListProps } from '@/framer/cards';
 
 export default function HandlesList() {
   return (
-    <motion.div className='handles-list' {...cardListProps}>
+    <motion.div className="handles-list" {...cardListProps}>
       {socialHandles.map((item) => (
         <SocialLink
           key={item.name}

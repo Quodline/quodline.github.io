@@ -10,6 +10,6 @@
     items-center
     rounded-md
     bg-gray-100
-    dark:bg-gray-700 dark:text-gray-50
-    p-4 lg:flex-none;
+    p-4 dark:bg-gray-700
+    dark:text-gray-50 lg:flex-none;
 }

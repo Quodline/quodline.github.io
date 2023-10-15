@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <h1 className='text-3xl font-bold'>Featured projects</h1>
+      <h1 className="text-3xl font-bold">Featured projects</h1>
       <ProjectList projects={projects} />
     </main>
   );

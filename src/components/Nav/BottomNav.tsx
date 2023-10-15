@@ -2,6 +2,7 @@ import { usePathname } from 'next/navigation';
 import { useCallback } from 'react';
 import pages from '@/static/pages';
 import BottomNavButton from './BottomNavButton';
+import cn from 'classnames';
 
 export default function BottomNav() {
   const pathname = usePathname();
@@ -11,14 +12,17 @@ export default function BottomNav() {
   }, [pathname]);
 
   return (
-    <div className='flex flex-1 items-center justify-between overflow-hidden p-4'>
-      <div>
-        {currentPage()?.previous && (
-          <BottomNavButton href={currentPage()?.previous?.path || '/'}>
-            {currentPage()?.previous?.title}
-          </BottomNavButton>
-        )}
-      </div>
+    <div
+      className={cn(
+        'flex flex-1 items-center justify-between overflow-hidden p-4',
+        { '!justify-end': currentPage()?.previous === undefined }
+      )}
+    >
+      {currentPage()?.previous && (
+        <BottomNavButton href={currentPage()?.previous?.path || '/'}>
+          {currentPage()?.previous?.title}
+        </BottomNavButton>
+      )}
       {currentPage()?.next && (
         <BottomNavButton
           href={currentPage()?.next?.path || '/'}

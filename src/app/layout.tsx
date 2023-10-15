@@ -37,14 +37,14 @@ const rubikMaze = Rubik_Maze({
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html
-      lang='en'
+      lang="en"
       className={`${rubik.variable} ${rubikDirt.variable} ${rubikMaze.variable} overflow-x-hidden font-sans`}
     >
-      <body className='flex min-h-screen flex-col bg-primary font-rubik dark:bg-gray-700 lg:flex-row'>
-        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+      <body className="flex min-h-screen flex-col bg-primary font-rubik dark:bg-gray-700 lg:flex-row">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Nav.Main />
-          <div className='flex flex-1 flex-col bg-gray-200 text-gray-700 dark:bg-gray-900 dark:text-gray-100'>
-            <div className='flex flex-col p-4 lg:basis-3/4 lg:justify-center'>
+          <div className="flex flex-1 flex-col bg-gray-200 text-gray-700 transition-all duration-1000 dark:bg-gray-900 dark:text-gray-100">
+            <div className="flex flex-col p-4 lg:basis-3/4 lg:justify-center">
               {children}
             </div>
             <Nav.Bottom />
