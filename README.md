@@ -31,5 +31,5 @@ Test
 ```bash
 npm run test
 # or
-npm run coverage # with coverage
+npm run test:coverage # with coverage
 ```
