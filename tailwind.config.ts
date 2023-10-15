@@ -6,10 +6,14 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: ['class'],
   theme: {
     extend: {
       colors: {
-        primary: '#093d91',
+        primary: {
+          DEFAULT: '#093d91',
+          dark: '#60A5FA',
+        },
       },
       fontFamily: {
         rubik: ['var(--font-rubik)', 'sans-serif'],

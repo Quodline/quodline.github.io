@@ -1,9 +1,9 @@
 .accordion-item {
-  @apply mr-4 mt-4 flex flex-col items-start rounded-md bg-gray-100 p-4 font-light;
+  @apply mr-4 mt-4 flex flex-col items-start rounded-md bg-gray-100 dark:bg-gray-700 dark:text-gray-50 p-4 font-light;
 }
 
 .accordion-item-header {
-  @apply flex cursor-pointer items-center justify-between self-stretch font-bold text-primary;
+  @apply flex cursor-pointer items-center justify-between self-stretch font-bold text-primary dark:text-primary-dark;
 }
 
 .accordion-item-body {

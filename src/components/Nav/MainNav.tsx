@@ -4,13 +4,15 @@ import { FaBars, FaXmark } from 'react-icons/fa6';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { item, titles } from '@/framer/nav';
+import { ThemeSwitcher } from '@/components';
 
 export default function MainNav() {
   const [showLinks, setShowLinks] = useState(true);
 
   return (
     <nav role='navigation' className='navbar'>
-      <div className='flex flex-1 justify-between'>
+      <div className='mt-4 flex flex-1 justify-between lg:mt-0'>
+        <ThemeSwitcher />
         <motion.div
           className='flex flex-col justify-center'
           initial='hidden'
@@ -32,7 +34,7 @@ export default function MainNav() {
         </motion.div>
         <button
           onClick={() => setShowLinks(!showLinks)}
-          className='self-end p-2 text-3xl lg:hidden'
+          className='m-2 self-end text-3xl lg:hidden'
         >
           {showLinks ? <FaXmark /> : <FaBars />}
         </button>

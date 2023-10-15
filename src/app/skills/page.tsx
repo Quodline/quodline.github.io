@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Skills() {
   return (
-    <main className='flex flex-col space-y-8 bg-gray-200'>
+    <main className='flex flex-col space-y-8'>
       <SkillsSection title='Languages' skills={skills.languages} />
       <SkillsSection title='Frontend' skills={skills.frontend} />
       <SkillsSection title='Backend' skills={skills.backend} />

@@ -12,7 +12,7 @@ export default function Anchor(props: PropsWithChildren<Props>) {
     <Link
       href={props.href}
       target={props.isExternal ? '_blank' : '_self'}
-      className={`text-primary ${props.className}`}
+      className={`dark:text-primary-dark text-primary ${props.className}`}
     >
       {props.children}↗
     </Link>

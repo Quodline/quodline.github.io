@@ -18,7 +18,7 @@ export default function SocialLink(props: Props) {
           <Image className='logo-icon' src={props.icon} alt='icon' />
         </div>
         <div className='text-center font-bold'>{props.name}</div>
-        <div className='break-all text-center text-gray-500'>
+        <div className='break-all text-center text-gray-500 dark:text-gray-400'>
           {props.subtext}
         </div>
       </Link>
