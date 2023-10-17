@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.APP_URL || 'https://quodline.github.io'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   themeColor: '#093d91',
 };
 

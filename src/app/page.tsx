@@ -15,7 +15,7 @@ export default function About() {
         alt=""
         className="h-48 w-48 self-center rounded-full"
       />
-      <div className="my-4">
+      <div className="my-4 max-w-4xl self-center">
         <p>
           I am a passionate and results-driven Full-Stack Developer with
           expertise in a versatile tech stack, including{' '}
