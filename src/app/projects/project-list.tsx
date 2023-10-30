@@ -5,11 +5,11 @@ import ProjectCard from './project-card';
 import { motion } from 'framer-motion';
 import { list } from '@/framer/projects';
 
-interface Props {
+interface IProps {
   projects: PortfolioProject[];
 }
 
-export default function ProjectList({ projects }: Props) {
+export default function ProjectList({ projects }: IProps) {
   const [activeIdx, setActiveIdx] = useState(0);
 
   return (
