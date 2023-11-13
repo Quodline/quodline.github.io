@@ -26,7 +26,7 @@ export default function BottomNav() {
       {currentPage()?.next && (
         <BottomNavButton
           href={currentPage()?.next?.path || '/'}
-          position='right'
+          position="right"
         >
           {currentPage()?.next?.title}
         </BottomNavButton>
