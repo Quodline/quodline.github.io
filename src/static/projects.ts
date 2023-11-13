@@ -60,6 +60,20 @@ const projects: PortfolioProject[] = [
     },
   },
   {
+    id: 'card-maker',
+    title: 'Web 2D Graphics',
+    description:
+      'A web application with a graphical interface for drawing fancy square cards. This project was developed by me' +
+      ' for the Christmas of 2021',
+    github: 'https://github.com/Quodline/card-maker',
+    link: 'https://card-maker-zeta.vercel.app/',
+    techStack: {
+      frameworks: [['Alpine.js', '2.7']],
+      languages: ['JavaScript'],
+      others: ['Web Canvas'],
+    },
+  },
+  {
     id: 'quod-gist',
     title: 'Chat',
     description:
@@ -101,19 +115,6 @@ const projects: PortfolioProject[] = [
       ],
       languages: ['HTML', 'CSS', 'JavaScript', 'PHP'],
       others: ['MySQL', 'Pinia', 'Cloudinary SDK', 'Inertia'],
-    },
-  },
-  {
-    id: 'scribe',
-    title: 'Blogging REST API',
-    description:
-      'REST API secured with session based authentication. It follows standard conventions for designing RESTful web services. It is fast, reliable and secure and it is properly documented for Postman.',
-    github: 'https://github.com/Quodline/scribe-server',
-    link: '#',
-    techStack: {
-      frameworks: [['Laravel', '10']],
-      languages: ['PHP'],
-      others: ['Docker', 'MySQL', 'Sanctum', 'Faker', 'OpenAPI'],
     },
   },
 ];
