@@ -25,6 +25,7 @@ import prismaIcon from '@/assets/backend/prisma.svg';
 import supabaseIcon from '@/assets/backend/supabase-icon.svg';
 import phpUnitIcon from '@/assets/backend/phpunit.svg';
 import jestIcon from '@/assets/backend/jest.svg';
+import mongoDbIcon from '@/assets/backend/mongodb-icon.svg';
 
 const skills: {
   languages: Skill[];
@@ -66,6 +67,7 @@ const skills: {
     ['PostgreSQL', postgresIcon],
     ['Redis', redisIcon],
     ['Supabase', supabaseIcon],
+    ['MongoDB', mongoDbIcon],
   ],
 };
 

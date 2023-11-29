@@ -41,6 +41,6 @@ describe('Skill lists', () => {
   it('displays all the database skills', () => {
     cy.get('#skills-database > .skill-list')
       .children()
-      .should('have.length', 4);
+      .should('have.length', 5);
   });
 });
